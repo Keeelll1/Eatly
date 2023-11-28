@@ -271,10 +271,18 @@ header{
 
 /* quality */
 
+.quality-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    padding: 200px 0;
+    background: url('/images/mobile.png') left 25% center no-repeat;
+}
+
 .quality{
     display: flex;
     flex-direction: column;
     gap: 60px;
+    position: relative;
 }
 
 .quality-title{
@@ -321,3 +329,12 @@ header{
     font-weight: 500;
     text-transform: capitalize;
 }
+
+.spiral-arrow{
+    position: absolute;
+    bottom: -10%;
+    left: 35%;
+}
+
+/* restaurants */
+
