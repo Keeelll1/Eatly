@@ -23,7 +23,7 @@ button{
 }
 
 .container{
-    max-width: 1250px;
+    width: 1250px;
     margin: 0 auto;
 }
 
@@ -122,9 +122,9 @@ header{
 /* Promo */
 
 .promo{
-    padding-top: 120px;
+    padding: 120px 0;
     display: flex;
-    gap: 15%;
+    background: url('/images/plate.png') right center no-repeat;
 }
 
 .note{
@@ -197,13 +197,13 @@ header{
     border: 1.5px solid #6C5FBC;
 }
 
-.left-promo-wrapper{
+.promo-wrapper{
     display: flex;
     flex-direction: column;
     gap: 43px;
 }
 
-.left-promo-btns{
+.promo-btns{
     display: flex;
     gap: 18px;
 }
@@ -232,74 +232,92 @@ header{
     opacity: 0.7;
 }
 
-.right-promo-wrapper{
-    position: relative;
+/* feedback */
+
+.feedback-wrapper{
+    background: #6C5FBC;
 }
 
-.right-content{
-    position: absolute;
-    z-index: 1;
-    left: -5%;
-}
-
-.promo-arrow{
-    position: absolute;
-    top: 15%;
-    right: -15%;
-}
-
-.promo-message{
-    border-radius: 16.406px;
-    background: #F9F9F9;
+.feedback{
     display: flex;
-    justify-content: space-around;
+    height: 220px;
     align-items: center;
-    width: 328.702px;
-    height: 89.451px;
-    box-shadow: 2px 1px 1px 1px rgba(24, 33, 44, 0.1);
-    position: absolute;
-    top: -10%;
-    right: -20%;
-    z-index: 2;
+    justify-content: space-evenly;
 }
 
-.mini-food{
-    width: 73.576px;
-    height: 81.12px;
+.feedback-header{
+    color: #FFF;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 43.2px;
+    font-weight: 700;
+    line-height: 54px;
 }
 
-.message-title{
-    color: #323142;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15.586px;
-    font-weight: 600;
-    line-height: 140%;
-}
-
-.message-text{
-    color:#323142;
-    font-family: 'Poppins', sans-serif;
-    font-size: 9.844px;
-    font-style: normal;
+.feedback-text{
+    color: #C5BFED;
+    font-family: 'Inter', sans-serif;
+    font-size: 14.4px;
     font-weight: 500;
+    line-height: 21.6px;
 }
 
-.message-content{
+.feedback-line{
+    width: 1px;
+    height: 123px;
+    opacity: 0.15;
+    background: #C5C5C5;
+    border-radius: 1px;
+}
+
+/* quality */
+
+.quality{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 60px;
 }
 
-.message-date{
-    color: #ACADB9;
+.quality-title{
+    color: #18181B;
     font-family: 'Poppins', sans-serif;
-    font-size: 10.664px;
-    font-weight: 500;
+    font-size: 50.923px;
+    font-weight: 700;
+    text-transform: capitalize;
 }
 
-.graphic{
-    position: absolute;
-    z-index: 2;
-    bottom: -20%;
-    left: -30%;
+.quality-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.quality-text{
+    display: flex;
+    gap: 5px;
+    color: #676767;
+    font-family: 'Inter', sans-serif;
+    font-size: 20.335px;
+    font-weight: 400;
+}
+
+.quality-text::before{
+    content: '•';
+}
+
+.quality-btn{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 20px 26px;
+    border-radius: 14.675px;
+    background: #6C5FBC;
+    width: fit-content;
+}
+
+.quality-btn-text{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18.062px;
+    font-weight: 500;
+    text-transform: capitalize;
 }
