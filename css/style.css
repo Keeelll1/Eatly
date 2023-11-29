@@ -420,7 +420,7 @@ header{
     transform: rotate(180deg);
 }
 
-.favorites-circle{
+.favorites{
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -431,7 +431,7 @@ header{
     cursor: pointer;
 }
 
-.favorites-circle.active{
+.favorites.active{
     background: #DBD9EE;
 }
 
