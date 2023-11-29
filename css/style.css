@@ -124,7 +124,7 @@ header{
 .promo{
     padding: 120px 0;
     display: flex;
-    background: url('images/plate.png') right center no-repeat;
+    background: url('../images/plate.png') right center no-repeat;
 }
 
 .note{
@@ -275,7 +275,7 @@ header{
     display: flex;
     justify-content: flex-end;
     padding: 200px 0;
-    background: url('images/mobile.png') left 25% center no-repeat;
+    background: url('../images/mobile.png') left 25% center no-repeat;
 }
 
 .quality{
