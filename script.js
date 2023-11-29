@@ -1,12 +1,14 @@
 const favorites = () => {
-    const favoritesBtn = document.querySelectorAll('.favourites'),
+    const favoritesBtn = document.querySelectorAll('.favorites'),
         favoritesContent = document.querySelectorAll('.favorites-circle')
 
         favoritesBtn.forEach(item => {
             item.addEventListener('click', () => {
+
                 favoritesContent.forEach(content => {
                     content.classList.toggle('active')
                 })
+
             })
         })
 }
