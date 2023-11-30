@@ -10,20 +10,24 @@ const favorites = () => {
 
 favorites()
 
-const addBlockRest = () => {
-    const openBtn = document.querySelectorAll('.rest-open-btn'),
-        block = document.querySelector('.rest-block-close'),
-        arrow = document.querySelectorAll('.rest-open-img')
+const addBlockView = () => {
+    const openBtn = document.querySelectorAll('.view-open-btn'),
+        blockView = document.querySelectorAll('.view-block-close')
 
         openBtn.forEach(item => {
             item.addEventListener('click', () => {
-                block.classList.toggle('active')
+                let blockNumber = item.getAttribute('data-number')
 
-                arrow.forEach(content => {
-                    content.classList.toggle('active')
+                blockView.forEach(block => {
+                    if (block.getAttribute('data-number') == blockNumber){
+                        block.classList.toggle('active')
+                    }
                 })
+
+                let arrow = item.querySelector('.view-open-img')
+                arrow.classList.toggle('active')
             })
         })
 }
 
-addBlockRest()
+addBlockView()

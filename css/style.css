@@ -342,7 +342,7 @@ header{
     padding-top: 70px;
 }
 
-.rest-title{
+.subtitle{
     color: #323142;
     font-family: 'Poppins', sans-serif;
     font-size: 32px;
@@ -370,18 +370,26 @@ header{
     padding: 10px 32px;
 }
 
-.rest-status{
+.status{
     padding: 3px 8px;
     border-radius: 5.4px;
     background: #F7EDD0;
     width: fit-content;
 }
 
-.rest-status-text{
+.status-text{
     color: #DAA31A;
     font-family: 'Poppins', sans-serif;
     font-size: 12.776px;
     font-weight: 400;
+}
+
+.status-addition{
+    background: #F7C5BA;
+}
+
+.status-text-addition{
+    color: #FB471D;
 }
 
 .rest-block-title{
@@ -412,11 +420,11 @@ header{
     line-height: 25.786px;
 }
 
-.rest-open-img{
+.view-open-img{
     transition: .2s ease;
 }
 
-.rest-open-img.active{
+.view-open-img.active{
     transform: rotate(180deg);
 }
 
@@ -435,15 +443,8 @@ header{
     background: #DBD9EE;
 }
 
-.rest-block-close{
-    display: none;
-}
 
-.rest-block-close.active{
-    display: flex;
-}
-
-.rest-open-btn{
+.view-open-btn{
     display: flex;
     align-items: center;
     gap: 15px;
@@ -453,7 +454,7 @@ header{
     cursor: pointer;
 }
 
-.rest-open-text{
+.view-open-text{
     color: #ACADB9; 
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
@@ -463,5 +464,97 @@ header{
 /* dishes */
 
 .dishes{
+    padding-top: 100px;
+}
+
+.dishes-block-wrapper{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dishes-block{
+    padding: 26px 10px;
+    border-radius: 34px;
+    border: 1px solid #F4F4F6;
+    background: #FFF;
+    box-shadow: 6px 82px 411px 0px rgba(229, 229, 229, 0.70);
+    width: fit-content;
+}
+
+.dishes-block-content{
+    padding: 0 21px;
+}
+
+.dishes-block-title{
+    color: #323142;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23.054px;
+    font-weight: 600;
+    line-height: 37.463px;
+}
+
+.dishes-block-attributes-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.dishes-block-feedback{
+    display: flex;
+    align-items: center;
+}
+
+.dishes-block-attributes-text{
+    color: #8E97A6;
+    font-family: 'Manrope', sans-serif;
+    font-size: 17.291px;
+    font-weight: 400;
+    line-height: 23.054px;
+}
+
+.dishes-block-price{
+    color: #323142;
+    font-family: 'Manrope', sans-serif;
+    font-size: 25.936px;
+    font-weight: 700;
+    line-height: 40.345px;
+}
+
+.dishes-block-price-addition{
+    color: #8E97A6;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18.806px;
+    font-weight: 700;
+    line-height: 40.345px;
+}
+
+.dishes-block-price-add-wrapper{
+    width: 43px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #323142;
+    border-radius: 9px;
+}
+
+.dishes-block-price-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.view-block-close{
+    display: none;
+}
+
+.view-block-close.active{
+    display: flex;
+}
+
+/* purchases */
+
+.purchases{
     height: 100px;
 }
