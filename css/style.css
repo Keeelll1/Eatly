@@ -480,6 +480,19 @@ header{
     background: #FFF;
     box-shadow: 6px 82px 411px 0px rgba(229, 229, 229, 0.70);
     width: fit-content;
+    position: relative;
+}
+
+.dishes-heart{
+    position: absolute;
+    top: 4%;
+    right: 6%;
+}
+
+.dishes-heart.active svg,
+.dishes-heart.active svg path {
+    fill: #FE584D;
+    stroke: #FE584D;
 }
 
 .dishes-block-content{

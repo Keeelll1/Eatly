@@ -6,6 +6,14 @@ const favorites = () => {
                 item.classList.toggle('active')
             })
         })
+
+    const dishesLike = document.querySelectorAll('.dishes-heart')
+
+        dishesLike.forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('active')
+            })
+        })
 }
 
 favorites()
