@@ -585,7 +585,7 @@ header{
 .purchases-block{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 50px;
 }
 
 .purchases-block-active{
