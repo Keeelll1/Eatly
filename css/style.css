@@ -7,6 +7,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+body{
+    background: #F9F9F9;
+}
+
 ul,li{
     list-style: none;
 }
@@ -569,5 +573,234 @@ header{
 /* purchases */
 
 .purchases{
+    padding-top: 100px;
+}
+
+.purchases-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.purchases-block{
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    box-shadow: 6px 10px 50px 0px rgba(229, 229, 229, 0.70);
+}
+
+.purchases-item-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.purchases-subtitle{
+    font-size: 51px;
+    font-weight: 700;
+    white-space: nowrap;
+    text-align: start;
+}
+
+.purchases-item{
+    width: 345px;
+    height: 88px;
+    border-radius: 12px;
+    background: #FFF;
+    padding: 5px 17px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.purchases-item-selected{
+    box-shadow: 6px 10px 50px 0px rgba(229, 229, 229, 0.70);
+}
+
+.purchases-item-img{
+    width: 77px;
+    height: 80px;
+}
+
+.purchases-item-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.purchases-item-text{
+    color: #323142;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.purchases-item-subtitle{
+    font-size: 12px;
+}
+
+.purchases-item-subtitle-red{
+    color: #F1534E;
+}
+
+.purchases-item-time{
+    color: #ACADB9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+.purchases-content-title{
+    color: #1A202C;
+    font-family: 'Manrope', sans-serif;
+    font-size: 28.271px;
+    font-weight: 800;
+    letter-spacing: 0.314px;
+}
+
+.purchases-content{
+    padding: 40px;
+    border-radius: 25.129px;
+    border: 1.571px solid #EDF2F7;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.purchases-content-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.purchases-content-btn-wrapper{
+    padding: 13px 19px;
+    border-radius: 13px;
+    background: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    width: fit-content;
+    position: relative;
+}
+
+.purchases-content-btn-text,
+.purchases-content-btn-select{
+    color: #1A202C;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18.847px;
+    font-weight: 600;
+    letter-spacing: 0.628px;
+}
+
+.purchases-content-select{
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 100%;
+    border-radius: 13px;
+    background: #FAFAFA;
+    padding: 0 19px; 
+}
+
+.purchases-content-select.active{
+    display: flex;
+}
+
+.purchases-content-item{
+    display: flex;
+    gap: 15px;
+}
+
+.purchases-content-item-wrapper{
+    padding: 25px;
+    width: 458px;
+    border-radius: 18.847px;
+    border: 1.571px solid #EDF2F7;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.purchases-content-item-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.purchases-content-item-title{
+    color: #1A202C;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18.847px;
+    font-weight: 800;
+    letter-spacing: 0.628px;
+    line-height: 150%;
+}
+
+.purchases-content-item-subtitle{
+    color: #A0AEC0;
+    font-family: 'Manrope', sans-serif;
+    font-size: 15.706px;
+    font-weight: 500;
+    letter-spacing: 0.628px;
+    line-height: 150%;
+}
+
+.purchases-content-item-price{
+    color: #1A202C;
+    font-family: 'Manrope', sans-serif;
+    font-size: 21.988px;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0.314px;
+}
+
+.purchases-content-item-line{
+    height: 10px;
+    width: 100%;
+    border-radius: 79px;
+    background: #DAD3FF;
+}
+
+.purchases-content-item-line-inner{
+    height: 10px;
+    width: 65%;
+    border-radius: 79px;
+    background: #6C5FBC;
+}
+
+.purchases-content-item-line-yellow{
+    background: #FDE0AA;
+}
+
+.purchases-content-item-line-inner-yellow{
+    background: #FBAD18;
+}
+
+.purchases-content-btn{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.purchases-content-btn-arrow{
+    transition: .3s ease;
+}
+
+.purchases-content-btn-arrow.active{
+    transform: rotate(180deg);
+}
+
+/* comments */
+
+.comments{
     height: 100px;
 }
