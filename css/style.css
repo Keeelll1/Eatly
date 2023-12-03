@@ -825,7 +825,7 @@ header{
     padding: 38px 44px;
     border-radius: 25px;
     background: #fff;
-    box-shadow: 5px 27px 35px 19px rgba(229, 229, 229, 0.70);
+    box-shadow: 5px 27px 35px 0px rgba(229, 229, 229, 0.70);
 }
 
 .slider-title{
