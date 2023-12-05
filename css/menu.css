@@ -1,0 +1,59 @@
+.menu-main-content{
+    padding-top: 120px;
+    display: flex;
+    gap: 9%;
+}
+
+.swiper{
+    width: 60%;
+    height: 400px;
+}
+
+.sale-slide{
+    height: fit-content;
+    border-radius: 19px;
+    width: 100% !important;
+    padding: 40px 40px 40px 30px;
+    background: url(../images/sale.png) center/cover no-repeat;
+    position: relative;
+}
+
+.sale-slide-img{
+    position: absolute;
+    width: 254px;
+    height: 254px;
+    bottom: -20%;
+    right: 3%;
+}
+
+.sale-slide-title{
+    color: #F7F8FA;
+    font-family: 'Poppins', sans-serif;
+    font-size: 74.996px;
+    font-weight: 800;
+}
+
+.sale-slide-subtitle{
+    color: #7C6FCD;
+    font-family: 'Poppins', sans-serif;
+    font-size: 87.419px;
+    font-weight: 800;
+}
+
+.sale-scrollbar {
+    background: #DAD3FF;
+    left: 50% !important;
+    transform: translate(-50%);
+    width: 60% !important;
+    height: 5px !important;
+}
+
+.swiper .swiper-scrollbar-drag{
+    cursor: pointer;
+    background: #6C5FBC;
+}
+
+.category{
+    width: 377px;
+    height: 591px;
+}

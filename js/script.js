@@ -63,7 +63,6 @@ dropDown()
 const swiper = new Swiper('.swiper', {
     loop: true,
     slidesPerView: 1.3,
-    // freeMode: false,
     centeredSlides: false,
     spaceBetween: 40,
 

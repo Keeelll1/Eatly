@@ -97,6 +97,10 @@ header{
     text-transform: capitalize;
 }
 
+.nav-list-active{
+    color: #6C5FBC;
+}
+
 .login-btn{
     border-radius: 18px;
     background: #fff;
@@ -826,7 +830,7 @@ header{
     width: 55%;
 }
 
-.swiper-slide{
+.comments-slide{
     cursor: pointer;
     height: 239px !important;
     width: 528px !important;
@@ -901,7 +905,7 @@ header{
     height: 23px;
 }
 
-.swiper-scrollbar{
+.comments-scrollbar {
     background: #DAD3FF;
     height: 5px !important;
 }
@@ -961,7 +965,7 @@ header{
 /* footer */
 
 footer{
-    padding-top: 96px;
+    padding-top: 60px;
     padding-bottom: 60px;
     background: #EAEAEA;
 }
