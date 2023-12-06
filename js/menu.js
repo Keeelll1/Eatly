@@ -8,4 +8,16 @@ const swiper = new Swiper('.swiper', {
         el: '.swiper-scrollbar',
         draggable: true
     }
-  });
+});
+
+const category = () => {
+    const categoryBlock = document.querySelectorAll('.category-block')
+
+    categoryBlock.forEach(item => {
+        item.addEventListener('click', () => {
+            item.classList.toggle('active')
+        })
+    })
+}
+
+category()
