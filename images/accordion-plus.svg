@@ -1,0 +1,24 @@
+<svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="31" height="31" fill="#1E1E1E"/>
+<g id="DESKTOP">
+<g id="Menu" clip-path="url(#clip0_0_1)">
+<rect id="Rectangle 3836" x="-1252" y="-2633" width="1440" height="3631" fill="#F9F9F9"/>
+<g id="FAQs">
+<g id="Questions">
+<g id="Q1">
+<g id="Plus">
+<circle id="Ellipse 53" cx="15.7452" cy="15.3179" r="14.5023" fill="#6C5FBC" stroke="#6C5FBC" stroke-width="1.11556"/>
+<rect id="Rectangle 619" x="10.1675" y="15.3184" width="10.5978" height="1.11556" fill="white"/>
+<rect id="Rectangle 621" x="14.9087" y="21.1748" width="10.5978" height="1.11556" transform="rotate(-90 14.9087 21.1748)" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="3631" fill="white" transform="translate(-1252 -2633)"/>
+</clipPath>
+</defs>
+</svg>

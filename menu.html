@@ -35,72 +35,565 @@
     </header>
     <main>
         <section class="menu-main-content container">
-            <div class="swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide sale-slide">
-                        <h2 class="sale-slide-title">50% OFF <br><span class="sale-slide-subtitle">WEEKENDS</span></h2>
-                        <img class="sale-slide-img" src="images/palte sale.png" alt="plate sale">
+            <div class="menu-main-block menu-block-top">
+                <div class="menu-main-left-content">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide sale-slide">
+                                <h2 class="sale-slide-title">50% OFF <br><span class="sale-slide-subtitle">WEEKENDS</span></h2>
+                                <img class="sale-slide-img" src="images/palte sale.png" alt="plate sale">
+                            </div>
+                            <div class="swiper-slide sale-slide">
+                                <h2 class="sale-slide-title">50% OFF <br><span class="sale-slide-subtitle">WEEKENDS</span></h2>
+                                <img class="sale-slide-img" src="images/palte sale.png" alt="plate sale">
+                            </div>
+                            <div class="swiper-slide sale-slide">
+                                <h2 class="sale-slide-title">50% OFF <br><span class="sale-slide-subtitle">WEEKENDS</span></h2>
+                                <img class="sale-slide-img" src="images/palte sale.png" alt="plate sale">
+                            </div>
+                        </div>
+                        <div class="swiper-scrollbar sale-scrollbar"></div>
                     </div>
-                    <div class="swiper-slide sale-slide">
-                        <h2 class="sale-slide-title">50% OFF <br><span class="sale-slide-subtitle">WEEKENDS</span></h2>
-                        <img class="sale-slide-img" src="images/palte sale.png" alt="plate sale">
-                    </div>
-                    <div class="swiper-slide sale-slide">
-                        <h2 class="sale-slide-title">50% OFF <br><span class="sale-slide-subtitle">WEEKENDS</span></h2>
-                        <img class="sale-slide-img" src="images/palte sale.png" alt="plate sale">
-                    </div>
+                    <div class="menu-main-value">
+                        <input class="search-string" type="text" placeholder="Search">
+                        <div class="menu-main-btns">
+                            <a class="menu-main-btn-link" href="#"><button class="menu-main-btn menu-main-btn-first">Food</button></a>
+                            <button class="menu-main-btn menu-main-btn-active">Resturent</button></a>
+                            <a class="menu-main-btn-link" href="#"><button class="menu-main-btn menu-main-btn-end">Basket</button></a>
+                        </div>
+                    </div>         
                 </div>
-                <div class="swiper-scrollbar sale-scrollbar"></div>
+                <div class="category">
+                    <div class="category-content">
+                        <h3 class="category-title">Category</h3>
+                        <div class="category-block-wrapper">
+                            <div class="category-block">
+                                <img class="category-block-img" src="images/pizza.svg" alt="category food">
+                                <p class="category-text">Pizza</p>
+                            </div>
+                            <div class="category-block category-block-second">
+                                <img class="category-block-img" src="images/hotdog.svg" alt="category food">
+                                <p class="category-text category-text-second">Pizza</p>
+                            </div>
+                            <div class="category-block category-block-third">
+                                <img class="category-block-img" src="images/donat.svg" alt="category food">
+                                <p class="category-text category-text-third">Pizza</p>
+                            </div>
+                            <div class="category-block category-block-four">
+                                <img class="category-block-img" src="images/icecream.svg" alt="category food">
+                                <p class="category-text category-text-four">Pizza</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-content">
+                        <h3 class="category-title">Sort By</h3>
+                        <div class="sort-block">
+                            <div class="sort-block-text-wrapper">
+                                <p class="sort-block-text">Recomended</p>
+                                <p class="sort-block-text">Most Popular</p>
+                            </div>
+                            <p class="sort-block-text-active">Fast Delivery</p>
+                        </div>
+                    </div>
+                    <div class="category-content">
+                        <h3 class="category-title">Price</h3>
+                        <div class="range-wrapper">
+                            <div class="slider slider-range-wrapper">
+                                <input class="slider-range" type="range" id="fader" min="0" max="1000" value="0" step="1">
+                            </div>
+                            <div class="range-wrapper-text">
+                                <p class="range-text">$0</p>
+                                <p class="range-text">$25</p>
+                                <p class="range-text">$50</p>
+                                <p class="range-text">$100</p>
+                                <p class="range-text">$500</p>
+                                <p class="range-text">$1000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="category-btn">Apply</button>
+                </div>
             </div>
-            <div class="category">
-                <div class="category-content">
-                    <h3 class="category-title">Category</h3>
-                    <div class="category-block-wrapper">
-                        <div class="category-block">
-                            <img class="category-block-img" src="images/pizza.svg" alt="category food">
-                            <p class="category-text">Pizza</p>
+        </section>
+        <section class="restaurants">
+            <div class="container">
+                <h2 class="subtitle">Our Top <span class="title-addition">Restaurants</span></h2>
+                <div class="rest-block-wrapper">
+                    <div class="rest-block">
+                        <img src="images/chicken-king.png" alt="chicken king" class="rest-img">
+                        <div class="rest-block-content">
+                            <div class="status">
+                                <p class="status-text">Healthy</p>
+                            </div>
+                            <h3 class="rest-block-title">The Chicken King</h3>
+                            <div class="rest-block-attributes">
+                                <div class="rest-block-attributes-wrapper">
+                                    <p class="rest-block-attributes-text">24min •</p>
+                                    <div class="rest-block-feedback">
+                                        <img class="rest-block-star" src="images/rest-star.svg" alt="star">
+                                        <p class="rest-block-attributes-text">4.8</p>
+                                    </div>
+                                </div>
+                                <div class="favorites">
+                                    <img class="favorites-mark" src="images/favorites mark.svg" alt="favorites mark">
+                                </div>
+                            </div>
                         </div>
-                        <div class="category-block category-block-second">
-                            <img class="category-block-img" src="images/hotdog.svg" alt="category food">
-                            <p class="category-text category-text-second">Pizza</p>
+                    </div>
+                    <div class="rest-block">
+                        <img src="images/burger-king.png" alt="chicken king" class="rest-img">
+                        <div class="rest-block-content">
+                            <div class="status status-addition">
+                                <p class="status-text status-text-addition">Trending</p>
+                            </div>
+                            <h3 class="rest-block-title">The Burger King</h3>
+                            <div class="rest-block-attributes">
+                                <div class="rest-block-attributes-wrapper">
+                                    <p class="rest-block-attributes-text">24min •</p>
+                                    <div class="rest-block-feedback">
+                                        <img class="rest-block-star" src="images/rest-star.svg" alt="star">
+                                        <p class="rest-block-attributes-text">4.8</p>
+                                    </div>
+                                </div>
+                                <div class="favorites">
+                                    <img class="favorites-mark" src="images/favorites mark.svg" alt="favorites mark">
+                                </div>
+                            </div>
                         </div>
-                        <div class="category-block category-block-third">
-                            <img class="category-block-img" src="images/donat.svg" alt="category food">
-                            <p class="category-text category-text-third">Pizza</p>
-                        </div>
-                        <div class="category-block category-block-four">
-                            <img class="category-block-img" src="images/icecream.svg" alt="category food">
-                            <p class="category-text category-text-four">Pizza</p>
+                    </div>
+                    <div class="rest-block">
+                        <img src="images/chicken-king.png" alt="chicken king" class="rest-img">
+                        <div class="rest-block-content">
+                            <div class="status">
+                                <p class="status-text">Healthy</p>
+                            </div>
+                            <h3 class="rest-block-title">The Chicken King</h3>
+                            <div class="rest-block-attributes">
+                                <div class="rest-block-attributes-wrapper">
+                                    <p class="rest-block-attributes-text">24min •</p>
+                                    <div class="rest-block-feedback">
+                                        <img class="rest-block-star" src="images/rest-star.svg" alt="star">
+                                        <p class="rest-block-attributes-text">4.8</p>
+                                    </div>
+                                </div>
+                                <div class="favorites">
+                                    <img class="favorites-mark" src="images/favorites mark.svg" alt="favorites mark">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="category-content">
-                    <h3 class="category-title">Sort By</h3>
-                    <div class="sort-block">
-                        <div class="sort-block-text-wrapper">
-                            <p class="sort-block-text">Recomended</p>
-                            <p class="sort-block-text">Most Popular</p>
-                        </div>
-                        <p class="sort-block-text-active">Fast Delivery</p>
-                    </div>
-                </div>
-                <div class="category-content">
-                    <h3 class="category-title">Price</h3>
-                    <div class="range-wrapper">
-                        <div class="slider slider-range-wrapper">
-                            <input class="slider-range" type="range" id="fader" min="0" max="1000" value="0" step="1">
-                        </div>
-                        <div class="range-wrapper-text">
-                            <p class="range-text">$0</p>
-                            <p class="range-text">$25</p>
-                            <p class="range-text">$50</p>
-                            <p class="range-text">$100</p>
-                            <p class="range-text">$500</p>
-                            <p class="range-text">$1000</p>
+                <div class="rest-block-wrapper view-block-close" data-number="first">
+                    <div class="rest-block">
+                        <img src="images/chicken-king.png" alt="chicken king" class="rest-img">
+                        <div class="rest-block-content">
+                            <div class="status">
+                                <p class="status-text">Healthy</p>
+                            </div>
+                            <h3 class="rest-block-title">The Chicken King</h3>
+                            <div class="rest-block-attributes">
+                                <div class="rest-block-attributes-wrapper">
+                                    <p class="rest-block-attributes-text">24min •</p>
+                                    <div class="rest-block-feedback">
+                                        <img class="rest-block-star" src="images/rest-star.svg" alt="star">
+                                        <p class="rest-block-attributes-text">4.8</p>
+                                    </div>
+                                </div>
+                                <div class="favorites">
+                                    <img class="favorites-mark" src="images/favorites mark.svg" alt="favorites mark">
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <div class="rest-block">
+                        <img src="images/burger-king.png" alt="chicken king" class="rest-img">
+                        <div class="rest-block-content">
+                            <div class="status status-addition">
+                                <p class="status-text status-text-addition">Trending</p>
+                            </div>
+                            <h3 class="rest-block-title">The Burger King</h3>
+                            <div class="rest-block-attributes">
+                                <div class="rest-block-attributes-wrapper">
+                                    <p class="rest-block-attributes-text">24min •</p>
+                                    <div class="rest-block-feedback">
+                                        <img class="rest-block-star" src="images/rest-star.svg" alt="star">
+                                        <p class="rest-block-attributes-text">4.8</p>
+                                    </div>
+                                </div>
+                                <div class="favorites">
+                                    <img class="favorites-mark" src="images/favorites mark.svg" alt="favorites mark">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rest-block">
+                        <img src="images/chicken-king.png" alt="chicken king" class="rest-img">
+                        <div class="rest-block-content">
+                            <div class="status">
+                                <p class="status-text">Healthy</p>
+                            </div>
+                            <h3 class="rest-block-title">The Chicken King</h3>
+                            <div class="rest-block-attributes">
+                                <div class="rest-block-attributes-wrapper">
+                                    <p class="rest-block-attributes-text">24min •</p>
+                                    <div class="rest-block-feedback">
+                                        <img class="rest-block-star" src="images/rest-star.svg" alt="star">
+                                        <p class="rest-block-attributes-text">4.8</p>
+                                    </div>
+                                </div>
+                                <div class="favorites">
+                                    <img class="favorites-mark" src="images/favorites mark.svg" alt="favorites mark">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <button class="category-btn">Apply</button>
+                <div class="view-open-btn" data-number="first">
+                    <p class="view-open-text">View All</p>
+                    <img class="view-open-img" src="images/arrow-right-rest.svg" alt="arrow right">
+                </div>
+                <div class="line"></div>
+            </div>
+        </section>
+        <section class="dishes">
+            <div class="container">
+                <h2 class="subtitle">Our Top <span class="title-addition">Dishes</span></h2>
+                <div class="dishes-block-wrapper">
+                    <div class="dishes-block">
+                        <img src="images/dish 1.png" alt="dish 1" class="dishes-img">
+                        <div class="dishes-block-content">
+                            <div class="status">
+                                <p class="status-text">Healthy</p>
+                            </div>
+                            <h3 class="dishes-block-title">Chicken Hell</h3>
+                            <div class="dishes-block-attributes">
+                                <div class="dishes-block-attributes-wrapper">
+                                    <p class="dishes-block-attributes-text">24min •</p>
+                                    <div class="dishes-block-feedback">
+                                        <img class="dishes-block-star" src="images/rest-star.svg" alt="star">
+                                        <p class="dishes-block-attributes-text">4.8</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dishes-block-price-wrapper">
+                                <p class="dishes-block-price">$12<span class="dishes-block-price-addition">.99</span></p>
+                                <div class="dishes-block-price-add-wrapper">
+                                    <img src="images/plus icon.svg" alt="plus icon" class="dishes-block-price-add">
+                                </div>
+                            </div>
+                            <div class="dishes-heart">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                    <path d="M11.9995 7.42817C12.5709 4.57102 16.9631 4.39176 18.8566 6.28531C20.6891 8.11777 20.5709 11.2389 18.8566 13.1425L11.9995 19.9996L5.14233 13.1425C3.24878 11.2489 3.24878 8.17886 5.14233 6.28531C6.91371 4.51393 11.428 4.57102 11.9995 7.42817Z" stroke="black" stroke-opacity="0.5" stroke-width="1.14286" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dishes-block">
+                        <img src="images/dish 1.png" alt="dish 1" class="dishes-img">
+                        <div class="dishes-block-content">
+                            <div class="status">
+                                <p class="status-text">Healthy</p>
+                            </div>
+                            <h3 class="dishes-block-title">Chicken Hell</h3>
+                            <div class="dishes-block-attributes">
+                                <div class="dishes-block-attributes-wrapper">
+                                    <p class="dishes-block-attributes-text">24min •</p>
+                                    <div class="dishes-block-feedback">
+                                        <img class="dishes-block-star" src="images/rest-star.svg" alt="star">
+                                        <p class="dishes-block-attributes-text">4.8</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dishes-block-price-wrapper">
+                                <p class="dishes-block-price">$12<span class="dishes-block-price-addition">.99</span></p>
+                                <div class="dishes-block-price-add-wrapper">
+                                    <img src="images/plus icon.svg" alt="plus icon" class="dishes-block-price-add">
+                                </div>
+                            </div>
+                            <div class="dishes-heart">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                    <path d="M11.9995 7.42817C12.5709 4.57102 16.9631 4.39176 18.8566 6.28531C20.6891 8.11777 20.5709 11.2389 18.8566 13.1425L11.9995 19.9996L5.14233 13.1425C3.24878 11.2489 3.24878 8.17886 5.14233 6.28531C6.91371 4.51393 11.428 4.57102 11.9995 7.42817Z" stroke="black" stroke-opacity="0.5" stroke-width="1.14286" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dishes-block">
+                        <img src="images/dish 1.png" alt="dish 1" class="dishes-img">
+                        <div class="dishes-block-content">
+                            <div class="status">
+                                <p class="status-text">Healthy</p>
+                            </div>
+                            <h3 class="dishes-block-title">Chicken Hell</h3>
+                            <div class="dishes-block-attributes">
+                                <div class="dishes-block-attributes-wrapper">
+                                    <p class="dishes-block-attributes-text">24min •</p>
+                                    <div class="dishes-block-feedback">
+                                        <img class="dishes-block-star" src="images/rest-star.svg" alt="star">
+                                        <p class="dishes-block-attributes-text">4.8</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dishes-block-price-wrapper">
+                                <p class="dishes-block-price">$12<span class="dishes-block-price-addition">.99</span></p>
+                                <div class="dishes-block-price-add-wrapper">
+                                    <img src="images/plus icon.svg" alt="plus icon" class="dishes-block-price-add">
+                                </div>
+                            </div>
+                            <div class="dishes-heart">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                    <path d="M11.9995 7.42817C12.5709 4.57102 16.9631 4.39176 18.8566 6.28531C20.6891 8.11777 20.5709 11.2389 18.8566 13.1425L11.9995 19.9996L5.14233 13.1425C3.24878 11.2489 3.24878 8.17886 5.14233 6.28531C6.91371 4.51393 11.428 4.57102 11.9995 7.42817Z" stroke="black" stroke-opacity="0.5" stroke-width="1.14286" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dishes-block">
+                        <img src="images/dish 1.png" alt="dish 1" class="dishes-img">
+                        <div class="dishes-block-content">
+                            <div class="status">
+                                <p class="status-text">Healthy</p>
+                            </div>
+                            <h3 class="dishes-block-title">Chicken Hell</h3>
+                            <div class="dishes-block-attributes">
+                                <div class="dishes-block-attributes-wrapper">
+                                    <p class="dishes-block-attributes-text">24min •</p>
+                                    <div class="dishes-block-feedback">
+                                        <img class="dishes-block-star" src="images/rest-star.svg" alt="star">
+                                        <p class="dishes-block-attributes-text">4.8</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dishes-block-price-wrapper">
+                                <p class="dishes-block-price">$12<span class="dishes-block-price-addition">.99</span></p>
+                                <div class="dishes-block-price-add-wrapper">
+                                    <img src="images/plus icon.svg" alt="plus icon" class="dishes-block-price-add">
+                                </div>
+                            </div>
+                            <div class="dishes-heart">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                    <path d="M11.9995 7.42817C12.5709 4.57102 16.9631 4.39176 18.8566 6.28531C20.6891 8.11777 20.5709 11.2389 18.8566 13.1425L11.9995 19.9996L5.14233 13.1425C3.24878 11.2489 3.24878 8.17886 5.14233 6.28531C6.91371 4.51393 11.428 4.57102 11.9995 7.42817Z" stroke="black" stroke-opacity="0.5" stroke-width="1.14286" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dishes-block">
+                        <img src="images/dish 1.png" alt="dish 1" class="dishes-img">
+                        <div class="dishes-block-content">
+                            <div class="status">
+                                <p class="status-text">Healthy</p>
+                            </div>
+                            <h3 class="dishes-block-title">Chicken Hell</h3>
+                            <div class="dishes-block-attributes">
+                                <div class="dishes-block-attributes-wrapper">
+                                    <p class="dishes-block-attributes-text">24min •</p>
+                                    <div class="dishes-block-feedback">
+                                        <img class="dishes-block-star" src="images/rest-star.svg" alt="star">
+                                        <p class="dishes-block-attributes-text">4.8</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dishes-block-price-wrapper">
+                                <p class="dishes-block-price">$12<span class="dishes-block-price-addition">.99</span></p>
+                                <div class="dishes-block-price-add-wrapper">
+                                    <img src="images/plus icon.svg" alt="plus icon" class="dishes-block-price-add">
+                                </div>
+                            </div>
+                            <div class="dishes-heart">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                    <path d="M11.9995 7.42817C12.5709 4.57102 16.9631 4.39176 18.8566 6.28531C20.6891 8.11777 20.5709 11.2389 18.8566 13.1425L11.9995 19.9996L5.14233 13.1425C3.24878 11.2489 3.24878 8.17886 5.14233 6.28531C6.91371 4.51393 11.428 4.57102 11.9995 7.42817Z" stroke="black" stroke-opacity="0.5" stroke-width="1.14286" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dishes-block-wrapper view-block-close" data-number="second">
+                    <div class="dishes-block">
+                        <img src="images/dish 1.png" alt="dish 1" class="dishes-img">
+                        <div class="dishes-block-content">
+                            <div class="status">
+                                <p class="status-text">Healthy</p>
+                            </div>
+                            <h3 class="dishes-block-title">Chicken Hell</h3>
+                            <div class="dishes-block-attributes">
+                                <div class="dishes-block-attributes-wrapper">
+                                    <p class="dishes-block-attributes-text">24min •</p>
+                                    <div class="dishes-block-feedback">
+                                        <img class="dishes-block-star" src="images/rest-star.svg" alt="star">
+                                        <p class="dishes-block-attributes-text">4.8</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dishes-block-price-wrapper">
+                                <p class="dishes-block-price">$12<span class="dishes-block-price-addition">.99</span></p>
+                                <div class="dishes-block-price-add-wrapper">
+                                    <img src="images/plus icon.svg" alt="plus icon" class="dishes-block-price-add">
+                                </div>
+                            </div>
+                            <div class="dishes-heart">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                    <path d="M11.9995 7.42817C12.5709 4.57102 16.9631 4.39176 18.8566 6.28531C20.6891 8.11777 20.5709 11.2389 18.8566 13.1425L11.9995 19.9996L5.14233 13.1425C3.24878 11.2489 3.24878 8.17886 5.14233 6.28531C6.91371 4.51393 11.428 4.57102 11.9995 7.42817Z" stroke="black" stroke-opacity="0.5" stroke-width="1.14286" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dishes-block">
+                        <img src="images/dish 1.png" alt="dish 1" class="dishes-img">
+                        <div class="dishes-block-content">
+                            <div class="status">
+                                <p class="status-text">Healthy</p>
+                            </div>
+                            <h3 class="dishes-block-title">Chicken Hell</h3>
+                            <div class="dishes-block-attributes">
+                                <div class="dishes-block-attributes-wrapper">
+                                    <p class="dishes-block-attributes-text">24min •</p>
+                                    <div class="dishes-block-feedback">
+                                        <img class="dishes-block-star" src="images/rest-star.svg" alt="star">
+                                        <p class="dishes-block-attributes-text">4.8</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dishes-block-price-wrapper">
+                                <p class="dishes-block-price">$12<span class="dishes-block-price-addition">.99</span></p>
+                                <div class="dishes-block-price-add-wrapper">
+                                    <img src="images/plus icon.svg" alt="plus icon" class="dishes-block-price-add">
+                                </div>
+                            </div>
+                            <div class="dishes-heart">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                    <path d="M11.9995 7.42817C12.5709 4.57102 16.9631 4.39176 18.8566 6.28531C20.6891 8.11777 20.5709 11.2389 18.8566 13.1425L11.9995 19.9996L5.14233 13.1425C3.24878 11.2489 3.24878 8.17886 5.14233 6.28531C6.91371 4.51393 11.428 4.57102 11.9995 7.42817Z" stroke="black" stroke-opacity="0.5" stroke-width="1.14286" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dishes-block">
+                        <img src="images/dish 1.png" alt="dish 1" class="dishes-img">
+                        <div class="dishes-block-content">
+                            <div class="status">
+                                <p class="status-text">Healthy</p>
+                            </div>
+                            <h3 class="dishes-block-title">Chicken Hell</h3>
+                            <div class="dishes-block-attributes">
+                                <div class="dishes-block-attributes-wrapper">
+                                    <p class="dishes-block-attributes-text">24min •</p>
+                                    <div class="dishes-block-feedback">
+                                        <img class="dishes-block-star" src="images/rest-star.svg" alt="star">
+                                        <p class="dishes-block-attributes-text">4.8</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dishes-block-price-wrapper">
+                                <p class="dishes-block-price">$12<span class="dishes-block-price-addition">.99</span></p>
+                                <div class="dishes-block-price-add-wrapper">
+                                    <img src="images/plus icon.svg" alt="plus icon" class="dishes-block-price-add">
+                                </div>
+                            </div>
+                            <div class="dishes-heart">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                    <path d="M11.9995 7.42817C12.5709 4.57102 16.9631 4.39176 18.8566 6.28531C20.6891 8.11777 20.5709 11.2389 18.8566 13.1425L11.9995 19.9996L5.14233 13.1425C3.24878 11.2489 3.24878 8.17886 5.14233 6.28531C6.91371 4.51393 11.428 4.57102 11.9995 7.42817Z" stroke="black" stroke-opacity="0.5" stroke-width="1.14286" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dishes-block">
+                        <img src="images/dish 1.png" alt="dish 1" class="dishes-img">
+                        <div class="dishes-block-content">
+                            <div class="status">
+                                <p class="status-text">Healthy</p>
+                            </div>
+                            <h3 class="dishes-block-title">Chicken Hell</h3>
+                            <div class="dishes-block-attributes">
+                                <div class="dishes-block-attributes-wrapper">
+                                    <p class="dishes-block-attributes-text">24min •</p>
+                                    <div class="dishes-block-feedback">
+                                        <img class="dishes-block-star" src="images/rest-star.svg" alt="star">
+                                        <p class="dishes-block-attributes-text">4.8</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dishes-block-price-wrapper">
+                                <p class="dishes-block-price">$12<span class="dishes-block-price-addition">.99</span></p>
+                                <div class="dishes-block-price-add-wrapper">
+                                    <img src="images/plus icon.svg" alt="plus icon" class="dishes-block-price-add">
+                                </div>
+                            </div>
+                            <div class="dishes-heart">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                    <path d="M11.9995 7.42817C12.5709 4.57102 16.9631 4.39176 18.8566 6.28531C20.6891 8.11777 20.5709 11.2389 18.8566 13.1425L11.9995 19.9996L5.14233 13.1425C3.24878 11.2489 3.24878 8.17886 5.14233 6.28531C6.91371 4.51393 11.428 4.57102 11.9995 7.42817Z" stroke="black" stroke-opacity="0.5" stroke-width="1.14286" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dishes-block">
+                        <img src="images/dish 1.png" alt="dish 1" class="dishes-img">
+                        <div class="dishes-block-content">
+                            <div class="status">
+                                <p class="status-text">Healthy</p>
+                            </div>
+                            <h3 class="dishes-block-title">Chicken Hell</h3>
+                            <div class="dishes-block-attributes">
+                                <div class="dishes-block-attributes-wrapper">
+                                    <p class="dishes-block-attributes-text">24min •</p>
+                                    <div class="dishes-block-feedback">
+                                        <img class="dishes-block-star" src="images/rest-star.svg" alt="star">
+                                        <p class="dishes-block-attributes-text">4.8</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dishes-block-price-wrapper">
+                                <p class="dishes-block-price">$12<span class="dishes-block-price-addition">.99</span></p>
+                                <div class="dishes-block-price-add-wrapper">
+                                    <img src="images/plus icon.svg" alt="plus icon" class="dishes-block-price-add">
+                                </div>
+                            </div>
+                            <div class="dishes-heart">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                    <path d="M11.9995 7.42817C12.5709 4.57102 16.9631 4.39176 18.8566 6.28531C20.6891 8.11777 20.5709 11.2389 18.8566 13.1425L11.9995 19.9996L5.14233 13.1425C3.24878 11.2489 3.24878 8.17886 5.14233 6.28531C6.91371 4.51393 11.428 4.57102 11.9995 7.42817Z" stroke="black" stroke-opacity="0.5" stroke-width="1.14286" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-open-btn" data-number="second">
+                    <p class="view-open-text">View All</p>
+                    <img class="view-open-img" src="images/arrow-right-rest.svg" alt="arrow right">
+                </div>
+                <div class="line"></div>
+            </div>
+        </section>
+        <section class="accordion-blocks-wrapper">
+            <div class="container">
+                <h2 class="subtitle">Frequently Asked <br> <span class="title-addition">Questions</span></h2>
+                <div class="accordion-block-wrapper">
+                    <div class="accordion-block">
+                        <div class="accordion-title">How long does delivery take?</div>
+                        <div class="accordion-content">
+                            <p class="accordeon-content-text">You Can Get Information By Contacting Our Support Team Have 24/7 Service.<br>What’s The Difference Between Free And Paid Plan ?</p>
+                        </div>
+                    </div>
+                    <div class="accordion-block">
+                        <div class="accordion-title">How Does It Work ?</div>
+                        <div class="accordion-content">
+                            <p class="accordeon-content-text">You Can Get Information By Contacting Our Support Team Have 24/7 Service.<br>What’s The Difference Between Free And Paid Plan ?</p>
+                        </div>
+                    </div>
+                    <div class="accordion-block">
+                        <div class="accordion-title">How does your food delivery service work?</div>
+                        <div class="accordion-content">
+                            <p class="accordeon-content-text">You Can Get Information By Contacting Our Support Team Have 24/7 Service.<br>What’s The Difference Between Free And Paid Plan ?</p>
+                        </div>
+                    </div>
+                    <div class="accordion-block">
+                        <div class="accordion-title">What payment options do you accept?</div>
+                        <div class="accordion-content">
+                            <p class="accordeon-content-text">You Can Get Information By Contacting Our Support Team Have 24/7 Service.<br>What’s The Difference Between Free And Paid Plan ?</p>
+                        </div>
+                    </div>
+                    <div class="accordion-block">
+                        <div class="accordion-title">Do you offer discounts or promotions?</div>
+                        <div class="accordion-content">
+                            <p class="accordeon-content-text">You Can Get Information By Contacting Our Support Team Have 24/7 Service.<br>What’s The Difference Between Free And Paid Plan ?</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
